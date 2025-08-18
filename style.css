@@ -2,7 +2,7 @@ body{
     background: linear-gradient(rgba(255, 255, 255, 0.8), rgb(255, 255, 255, 0.8)),
     url(bg1.png);
     position: center;
-    background-size: 50% auto;
+    background-size: 30% auto;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -38,4 +38,5 @@ body{
     font-size: 10% auto;
     text-align: center;
     font-weight: bold;
+
 }
