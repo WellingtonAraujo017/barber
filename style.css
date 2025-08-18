@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgb(255, 255, 255, 0.8)),
+    url(bg1.png);
+    position: center;
+    background-size: 50% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo h1{
+    font-size: 300%;
+    font-weight: bold;
+}
+
+.logo{
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold;
+}
+.contato{
+    font-size: 100%;
+    text-align: center;
+    margin: 0%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.agenda{
+    font-size: 250%;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rs{
+    font-size: 10% auto;
+    text-align: center;
+    font-weight: bold;
+}
