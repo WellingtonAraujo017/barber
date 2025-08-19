@@ -3,14 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <title>Agenda - Barbearia Estilo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 40px auto;
+    }
+    h1 {
+      text-align: center;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 20px;
+    }
+    button {
+      margin: 4px;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 5px;
+      background: #4CAF50;
+      color: white;
+      cursor: pointer;
+    }
+    button.reservado {
+      background: #ccc;
+      cursor: not-allowed;
+    }
+  </style>
 </head>
 <body>
   <h1>Agende seu Horário</h1>
   <p>Confira os horários disponíveis abaixo:</p>
-  <ul>
-    <li>Segunda - 09:00, 10:00, 14:00</li>
-    <li>Terça - 09:00, 11:00, 15:00</li>
-    <li>Quarta - 09:00, 13:00, 16:00</li>
-  </ul>
+
+  <ul id="agenda"></ul>
+
+  <script src="script.js"></script>
 </body>
 </html>
