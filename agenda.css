@@ -1,0 +1,92 @@
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgb(255, 255, 255, 0.8)),
+    url(bg1.png);
+    position: center;
+    background-size: 30% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 300%;
+    font-weight: bold;
+    text-align: center;
+}
+
+p{
+    font-size: 120%;
+    text-align: center;
+}
+
+.tabs{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tab-btn{
+    flex: auto;
+    padding: auto;  
+    border: none;
+    background: #4caf4c;
+    cursor: pointer;
+    font-size: 100%;
+    transition: 0.3s;
+}
+
+.tab-btn:hover{
+    background: #bbb;
+}
+
+.tab-btn.active{
+    background: #4caf4c;
+    color: white;
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    margin-bottom: auto;
+    font-size: 120%;
+    text-align: center;
+    margin: auto;
+}
+
+button.horario{
+    margin: auto;
+    padding: auto;
+    border: none;
+    border-radius: auto;
+    cursor: pointer;
+    background: green;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover{
+    background: red;
+    transform: scale(1.05);
+}
+
+button.reservado{
+    background: red;
+    color: #666;
+    cursor: not-allowed;
+    text-decoration: line-through;
+}
+
+.contato{
+    font-size: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.rs{
+    font-size: auto;
+    text-align: center;
+    font-weight: bold;
+}
